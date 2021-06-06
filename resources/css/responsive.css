@@ -1,0 +1,21 @@
+@media (max-width: 768px){
+    .all-boxes{ 
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+   
+}
+@media (max-width: 580px){
+    .main-nav ul{
+        grid-template-columns:1fr;
+       margin: 0 40px;
+    }
+    .top-container{
+        grid-template-areas: 
+        'showcase showcase'
+        'side-box1 side-box2'
+        ;
+    }
+    .info {
+        grid-template-columns: 1fr;
+      }  
+}
